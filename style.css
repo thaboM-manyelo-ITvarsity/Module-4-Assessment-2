@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: goldenrod;
+}
+
+#grid1-1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#grid1-2{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+
+#grid1-3{
+    position: absolute;
+    left: 400px;
+    top: 0px;
+}
+
+/*============ SECOND ROW ============*/
+
+#grid2-1{
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+
+#grid2-2{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+#grid2-3{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+/*============ THIRD ROW ============*/
+
+#grid3-1{
+    position: absolute;
+    left: 0px;
+    top: 400px;
+}
+
+#grid3-2{
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+
+#grid3-3{
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+/*=============================== DRAGGING BLOCKS ================================= */
+
+#img1-1-draggable{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    transform: scale(0.3);
+}
+
+#img1-3-draggable{
+    position: absolute;
+    right: 230px;
+    top: 0px;
+    transform: scale(0.3);
+}
+
+#img1-2-draggable{
+    position: absolute;
+    right: 450px;
+    top: 0px;
+    transform: scale(0.3);
+}
+
+#img2-1-draggable{
+    position: absolute;
+    right: 10px;
+    top: 400px;
+    transform: scale(0.3);
+}
+
+#img3-1-draggable{
+    position: absolute;
+    right: 10px;
+    top: 200px;
+}
+
+#img2-3-draggable{
+    position: absolute;
+    right: 230px;
+    top: 400px;
+    transform: scale(0.3);
+}
+
+#img3-3-draggable{
+    position: absolute;
+    right: 230px;
+    top: 200px;
+}
+
+#img2-2-draggable{
+    position: absolute;
+    right: 450px;
+    top: 400px;
+    transform: scale(0.3);
+}
+
+#img3-2-draggable{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+}
